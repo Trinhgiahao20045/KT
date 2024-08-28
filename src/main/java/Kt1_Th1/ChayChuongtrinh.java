@@ -20,8 +20,8 @@ public class ChayChuongtrinh {
         do {
             System.out.println("1. Xuat danh sach CD");
             System.out.println("2. Xuat CD phat hanh truoc nam 2020");
-            System.out.println("3. Tim CD co ten chua chu 'tinh'");
-            System.out.println("4. Sap xep CD theo gia giam dan");
+            System.out.println("3. CD co ten chua chu 'tinh'");
+            System.out.println("4. Sap xep CD theo gia giam");
             System.out.println("5. Xoa CD theo ma so");
             System.out.println("6. Sua gia ban CD theo ma so");
             System.out.println("7. Tinh tong tri gia cac CD");
@@ -65,7 +65,7 @@ public class ChayChuongtrinh {
                     }
                     break;
                 case 7:
-                    System.out.println("Tong tri gia cac CD: " + quanLyCD.tinhTongTriGia());
+                    System.out.println("Tong gia cac CD: " + quanLyCD.tinhTongTriGia());
                     break;
                 case 0:
                     System.out.println("Thoat chuong trinh.");
