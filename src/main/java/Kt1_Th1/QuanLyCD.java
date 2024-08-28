@@ -16,11 +16,11 @@ public class QuanLyCD {
     
    public QuanLyCD() {
         danhSachCD = new ArrayList<>();
-        danhSachCD.add(new CD("CD01", "Noi buon gac tro", "Quang Linh",195000,2018));
-        danhSachCD.add(new CD("CD02", "Bai tinh ca dem", "Duc Tuan",185000,2021));
-        danhSachCD.add(new CD("CD03", "Cau ho chieu que", "Nhieu ca si",172000,2022));
-        danhSachCD.add(new CD("CD04", "Tinh dau tinh cuoi", "Van Khanh",139000,2022));
-        danhSachCD.add(new CD("CD05", "Thanh pho mua bay", "Dan Nguyen",182000,2019));
+        danhSachCD.add(new CD("CD01", "Noibuongactro", "Quang Linh",195000,2018));
+        danhSachCD.add(new CD("CD02", "Baitinhcadem", "Duc Tuan",185000,2021));
+        danhSachCD.add(new CD("CD03", "Cauhochieuque", "Nhieu ca si",172000,2022));
+        danhSachCD.add(new CD("CD04", "Tinhdautinhcuoi", "Van Khanh",139000,2022));
+        danhSachCD.add(new CD("CD05", "Thanhphomuabay", "Dan Nguyen",182000,2019));
    
 }
    public void xuatDanhSachCD() {
